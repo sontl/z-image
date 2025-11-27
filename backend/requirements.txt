@@ -1,14 +1,9 @@
 fastapi
 uvicorn
-pydantic
-accelerate
+torch
 transformers
-sentencepiece
+accelerate
 protobuf
-opencv-python-headless
-pillow
-numpy
-python-multipart
-# diffusers is installed via git in Dockerfile
-# torch is installed via index-url in Dockerfile
-# flash-attn is installed in Dockerfile
+sentencepiece
+ninja
+packaging
